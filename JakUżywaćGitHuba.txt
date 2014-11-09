@@ -10,7 +10,5 @@ W górnym lewym rogu mamy znak: "+". Po naciœniêciu wybieramy opcjê "Clone" a pot
 Kolega doda³ nowe zmiany w projekcie. Jak zaktualizowaæ nasze repo?
 By zaktualizowaæ nasz lokalny branch nale¿y klikn¹æ przycisk "Sync" w górnej prawej czêœci aplikacji.
 ==========
-Jak zrobiæ nowego lokalnego commita ?
-GitHub automatycznie wykrywa jakie zmiany nast¹pi³y w naszym lokalnym folderze. By zrobiæ nowego commita nale¿y w GUI wype³niæ formularz "Uncomitted changes" i nacisn¹æ ptaszka.
-==========
-Jak zrobiæ vbvbvb 
+Jak zrobiæ nowego commita ?
+GitHub automatycznie wykrywa jakie zmiany nast¹pi³y w naszym lokalnym folderze. By zrobiæ nowego commita nale¿y w GUI wype³niæ formularz "Uncomitted changes" i nacisn¹æ ptaszka. A potem naciscn¹æ "Sync"

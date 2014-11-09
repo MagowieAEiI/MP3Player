@@ -13,4 +13,4 @@ By zaktualizowaæ nasz lokalny branch nale¿y klikn¹æ przycisk "Sync" w górnej pra
 Jak zrobiæ nowego lokalnego commita ?
 GitHub automatycznie wykrywa jakie zmiany nast¹pi³y w naszym lokalnym folderze. By zrobiæ nowego commita nale¿y w GUI wype³niæ formularz "Uncomitted changes" i nacisn¹æ ptaszka.
 ==========
-Jak  
+Jak zrobiæ  

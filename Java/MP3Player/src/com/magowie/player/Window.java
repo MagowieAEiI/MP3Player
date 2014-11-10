@@ -17,7 +17,8 @@ import javafx.event.EventHandler;
 
 public class Window extends Application
 {
-
+//UTF TEST
+//sdjfhjdhfjdhfsłłłóóććóóóćóóśóęęĘĘĘĘĘóÓÓÓÓą
 	public Window(String[] args) 
 	{
 		launch(args);

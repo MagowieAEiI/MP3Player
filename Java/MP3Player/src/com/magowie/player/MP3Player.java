@@ -1,18 +1,16 @@
 package com.magowie.player;
 
-import javafx.stage.Stage;
+import javafx.scene.media.MediaPlayer;
 
-public class MP3Player 
-{
+public class MP3Player {
+	//singleton
+	ProgressBar progressBar;
+	public MP3Player() {}
+	public boolean PlayFile(String path){
+		return false;}
+	public static void main(String[] args) {
+		
 
-	public MP3Player() 
-	{
-	}
-
-	public static void main(String[] args) throws Exception 
-	{
-		//System.out.println("Witaj w odtwarzaczu :DDD!!!!");
-		Window window= new Window(args);
 	}
 
 }

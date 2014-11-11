@@ -1,5 +1,5 @@
 package com.magowie.player;
-//�eby nie by�o error�w trzeba zainstalowa� t� wtyczk�: e(fx)clipse 
+//Żeby nie było errorów trzeba zainstalować wtyczkę: e(fx)clipse 
 import java.io.File;
 import java.net.MalformedURLException;
 
@@ -17,8 +17,6 @@ import javafx.event.EventHandler;
 
 public class Window extends Application
 {
-//UTF TEST
-//sdjfhjdhfjdhfsłłłóóććóóóćóóśóęęĘĘĘĘĘóÓÓÓÓą
 	public Window(String[] args) 
 	{
 		launch(args);
@@ -29,7 +27,7 @@ public class Window extends Application
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-			//Wiadomo do poprawy, to nie jest obiekt�wka :D
+			//Wiadomo do poprawy, to nie jest obiektówka :D
 			String filename="../../Piosenki/Kalimba.mp3";
 			File file = new File(filename);
 			String mediaLocation = file.toURI().toURL().toExternalForm();

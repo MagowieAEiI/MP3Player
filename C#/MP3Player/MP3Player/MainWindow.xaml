@@ -1,15 +1,9 @@
-﻿<mui:ModernWindow x:Class="MuiTest.MainWindow"
-  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
-  Title="MainWindow" MinWidth="1000" Height="Auto" Width="Auto">
-        <mui:ModernWindow.MenuLinkGroups>
-            <mui:LinkGroup DisplayName="Odtwarzacz" >
-                <mui:LinkGroup.Links>
-                    <mui:Link DisplayName="Menadżer" Source="MyControls/MainPanel.xaml" />
-                    <mui:Link DisplayName="Playlisty" Source="MyControls/MainPanel.xaml" />
-                    <mui:Link DisplayName="Teraz grana" Source="MyControls/MainPanel.xaml" />
-                </mui:LinkGroup.Links>
-            </mui:LinkGroup>
-        </mui:ModernWindow.MenuLinkGroups>
-</mui:ModernWindow>
+﻿<Controls:MetroWindow x:Class="WpfApplication2.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      Title="MainWindow" 
+                      Height="700" 
+                      Width="1200" ShowTitleBar="False" Background="Gray">
+
+</Controls:MetroWindow>

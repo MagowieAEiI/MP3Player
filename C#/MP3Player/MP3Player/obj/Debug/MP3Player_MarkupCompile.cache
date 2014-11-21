@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Artur\documents\visual studio 2013\Projects\MP3Player\MP3Player\obj\Debug\
+C:\Users\Artur\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\
 MP3Player
 none
 false
 DEBUG;TRACE
-C:\Users\Artur\documents\visual studio 2013\Projects\MP3Player\MP3Player\App.xaml
-41056081694
+C:\Users\Artur\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\App.xaml
+61579115182
 
 8-368301996
-131272393388
-MainWindow.xaml;MyControls\MainPanel.xaml;MyControls\PlayControl.xaml;MyControls\RoundControl.xaml;
+14-890197595
+MainWindow.xaml;MyControls\MainPanel.xaml;MyControls\PlayControl.xaml;MyControls\RoundControl.xaml;Resources\Icons.xaml;Styles\MainWindowStyle.xaml;
 
 False
 

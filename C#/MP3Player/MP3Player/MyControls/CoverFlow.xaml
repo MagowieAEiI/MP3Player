@@ -7,6 +7,7 @@
             >
     <Grid>
         <Viewport3D x:Name="viewPort" Grid.Column="0" Grid.Row="0" ClipToBounds="False">
+            
             <Viewport3D.Camera>
                 <PerspectiveCamera x:Name="camera" Position="0,0,3"  
        UpDirection="0,1,0" LookDirection="0,0,-1"  
@@ -19,6 +20,7 @@
                     </ModelVisual3D.Content>
                 </ModelVisual3D>
                 <ModelVisual3D x:Name="visualModel">
+                    
                 </ModelVisual3D>
             </Viewport3D.Children>
         </Viewport3D>

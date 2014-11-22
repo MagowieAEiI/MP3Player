@@ -18,10 +18,21 @@ namespace MP3Player
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow 
+    public partial class MainWindow
     {
         public MainWindow()
         { 
+        }
+
+        private void SongInfo_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            this.MainCoverFlow.mouseWheelToTransform += (float)e.Delta;
+            this.MainCoverFlow.WheelAnimation();
+        }
+
+        private void SongInfo_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            int gh = 45;
         }
     }
 }

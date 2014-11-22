@@ -8,11 +8,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Media.Media3D;
 namespace MP3Player
 {
-    //zrobic singleton!
-    class CurrentPlaylist
+
+    static class CurrentPlaylist
     {
-        public List<BitmapImage> coverflows; 
-        public CurrentPlaylist()
+        public static List<BitmapImage> coverflows;
+        public static int actualSongIndex;//indeks aktualnie granej palylisty
+        public static void addSampleSong()
         {
             coverflows= new List<BitmapImage>();
             coverflows.Add(new BitmapImage(new Uri(@"SampleAlbumCover/80945949.png", UriKind.Relative)));
@@ -22,7 +23,7 @@ namespace MP3Player
             coverflows.Add(new BitmapImage(new Uri(@"SampleAlbumCover/88060027.png", UriKind.Relative)));
             coverflows.Add(new BitmapImage(new Uri(@"SampleAlbumCover/94104541.png", UriKind.Relative)));
             coverflows.Add(new BitmapImage(new Uri(@"SampleAlbumCover/101738621.png", UriKind.Relative)));
-
+            actualSongIndex = 3;
         }
     }
 }

@@ -20,8 +20,24 @@ namespace MP3Player
     /// </summary>
     public partial class MainWindow
     {
+        public int WindowHeight
+        {
+            set { WindowHeight = value; }
+            get { return (int)(GlobalValue.screenHeight*0.5); }
+        }
+
+        public int WindowWidth
+        {
+            set { WindowWidth = value; }
+            get { return (int)(GlobalValue.screenWidth*0.5); }
+        }
+
         public MainWindow()
-        { 
+        {
+            DataContext = this;
+            GlobalValue.screenWidth = (int) System.Windows.SystemParameters.PrimaryScreenWidth;
+            GlobalValue.screenHeight = (int)System.Windows.SystemParameters.PrimaryScreenHeight;
+
         }
 
         private void SongInfo_MouseWheel(object sender, MouseWheelEventArgs e)

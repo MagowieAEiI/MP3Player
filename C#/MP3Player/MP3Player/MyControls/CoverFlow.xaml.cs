@@ -30,6 +30,17 @@ namespace MP3Player.MyControls
             CurrentPlaylist.addSampleSong();//w kolejnej wersji do poprawy architektura
             Initialize3D();
         }
+        public int WindowHeight
+        {
+            set { WindowHeight = value; }
+            get { return 1000; }
+        }
+
+        public int WindowWidth
+        {
+            set { WindowWidth = value; }
+            get { return (int)(GlobalValue.screenWidth*0.5); }
+        }
         public void Initialize3D()
         {
             modeleOkladek= new ModelVisual3D[3];

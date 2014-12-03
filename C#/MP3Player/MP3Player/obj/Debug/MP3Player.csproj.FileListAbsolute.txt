@@ -108,6 +108,38 @@ C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyCont
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.g.resources
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.Properties.Resources.resources
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.csproj.GenerateResource.Cache
+<<<<<<< HEAD
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\bin\Debug\MP3Player.exe.config
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.exe
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.pdb
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\bin\Debug\MP3Player.exe
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\bin\Debug\MP3Player.pdb
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\bin\Debug\MahApps.Metro.dll
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\bin\Debug\System.Windows.Interactivity.dll
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\bin\Debug\MahApps.Metro.xml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.csprojResolveAssemblyReference.cache
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\CoverFlow.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\RoundControl.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\Resources\Icons.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\Styles\MainWindowStyle.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\App.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MainWindow.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\CoverFlow.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\MainPanel.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\PlayControl.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\RoundControl.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\Resources\Icons.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\App.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player_MarkupCompile.cache
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player_MarkupCompile.lref
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MainWindow.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\MainPanel.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\PlayControl.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.g.resources
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.Properties.Resources.resources
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.csproj.GenerateResource.Cache
+=======
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\CoverFlow.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\CoverFlow.g.cs
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\ArtistNameLabel.baml
@@ -118,3 +150,4 @@ C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyCont
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\SongNameLabel.g.cs
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\StarPanel.g.cs
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\StarPanel.baml
+>>>>>>> origin/master

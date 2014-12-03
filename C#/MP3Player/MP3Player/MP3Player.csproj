@@ -117,10 +117,15 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="MP3File.cs" />
+    <Compile Include="MyControls\CoverFlow.xaml.cs">
+=======
     <Compile Include="MyControls\InfoPanel\ArtistNameLabel.xaml.cs">
       <DependentUpon>ArtistNameLabel.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyControls\InfoPanel\CoverFlow.xaml.cs">
+>>>>>>> origin/master
       <DependentUpon>CoverFlow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyControls\InfoPanel\OptionalInfoLabel.xaml.cs">

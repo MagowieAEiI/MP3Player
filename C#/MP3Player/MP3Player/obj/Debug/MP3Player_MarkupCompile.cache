@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\App.xaml
-7-1526287680
+11273917510
 
-11-397832568
-14-681703464
-MainWindow.xaml;MyControls\CoverFlow.xaml;MyControls\MainPanel.xaml;MyControls\PlayControl.xaml;MyControls\RoundControl.xaml;Resources\Icons.xaml;Styles\MainWindowStyle.xaml;
+151866454548
+161732244497
+MainWindow.xaml;MyControls\InfoPanel\ArtistNameLabel.xaml;MyControls\InfoPanel\CoverFlow.xaml;MyControls\InfoPanel\OptionalInfoLabel.xaml;MyControls\InfoPanel\SongNameLabel.xaml;MyControls\MainPanel.xaml;MyControls\PlayControl.xaml;MyControls\RoundControl.xaml;MyControls\InfoPanel\StarPanel.xaml;Resources\Icons.xaml;Styles\MainWindowStyle.xaml;
 
 False
 

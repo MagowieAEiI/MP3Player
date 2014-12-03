@@ -15,7 +15,7 @@
         </Grid.ColumnDefinitions>
         <local:RoundControl Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" ImageSource="../MyControlsImages/replay.png" Margin="5"/>
         <local:RoundControl Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" ImageSource="../MyControlsImages/prev.png" Margin="5"/>
-        <local:RoundControl Grid.Column="2" VerticalAlignment="Bottom" HorizontalAlignment="Center" ImageSource="../MyControlsImages/play.png" Margin="5"/>
+        <local:RoundControl Grid.Column="2" VerticalAlignment="Bottom" HorizontalAlignment="Center" ImageSource="../ControlsImages/Play_Pause/Play_Hover.png" Margin="5"/>
         <local:RoundControl Grid.Column="3" VerticalAlignment="Bottom" HorizontalAlignment="Center" ImageSource="../MyControlsImages/next.png" Margin="5"/>
         <local:RoundControl Grid.Column="4" VerticalAlignment="Bottom" HorizontalAlignment="Center" ImageSource="../MyControlsImages/shuffle.png" Margin="5"/>
     </Grid>

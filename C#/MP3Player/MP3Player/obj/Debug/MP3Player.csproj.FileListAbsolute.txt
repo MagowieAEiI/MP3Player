@@ -89,13 +89,11 @@ C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\bin\Debug\MahApp
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\bin\Debug\MahApps.Metro.xml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.csprojResolveAssemblyReference.cache
-C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\CoverFlow.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\RoundControl.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\Resources\Icons.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\Styles\MainWindowStyle.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\App.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MainWindow.g.cs
-C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\CoverFlow.g.cs
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\MainPanel.g.cs
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\PlayControl.g.cs
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\RoundControl.g.cs
@@ -110,3 +108,13 @@ C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyCont
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.g.resources
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.Properties.Resources.resources
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MP3Player.csproj.GenerateResource.Cache
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\CoverFlow.baml
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\CoverFlow.g.cs
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\ArtistNameLabel.baml
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\OptionalInfoLabel.baml
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\SongNameLabel.baml
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\ArtistNameLabel.g.cs
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\OptionalInfoLabel.g.cs
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\SongNameLabel.g.cs
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\StarPanel.g.cs
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\StarPanel.baml

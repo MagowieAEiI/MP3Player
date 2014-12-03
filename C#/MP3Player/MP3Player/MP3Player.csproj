@@ -39,6 +39,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.0.14.0.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
     </Reference>
@@ -73,7 +75,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MyControls\CoverFlow.xaml">
+    <Page Include="MyControls\InfoPanel\ArtistNameLabel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MyControls\InfoPanel\CoverFlow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MyControls\InfoPanel\OptionalInfoLabel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MyControls\InfoPanel\SongNameLabel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -89,6 +103,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MyControls\InfoPanel\StarPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Resources\Icons.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -99,8 +117,17 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyControls\CoverFlow.xaml.cs">
+    <Compile Include="MyControls\InfoPanel\ArtistNameLabel.xaml.cs">
+      <DependentUpon>ArtistNameLabel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyControls\InfoPanel\CoverFlow.xaml.cs">
       <DependentUpon>CoverFlow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyControls\InfoPanel\OptionalInfoLabel.xaml.cs">
+      <DependentUpon>OptionalInfoLabel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyControls\InfoPanel\SongNameLabel.xaml.cs">
+      <DependentUpon>SongNameLabel.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyControls\MainPanel.xaml.cs">
       <DependentUpon>MainPanel.xaml</DependentUpon>
@@ -110,6 +137,9 @@
     </Compile>
     <Compile Include="MyControls\RoundControl.xaml.cs">
       <DependentUpon>RoundControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyControls\InfoPanel\StarPanel.xaml.cs">
+      <DependentUpon>StarPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -128,6 +158,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Fonts\CenturyGothic.ttf" />
+    <None Include="ControlsImages\Bar\Thumbs.db" />
+    <None Include="ControlsImages\Forward_Backward\Thumbs.db" />
+    <None Include="ControlsImages\Play_Pause\Thumbs.db" />
+    <None Include="ControlsImages\Repeat_Shuffle\Thumbs.db" />
+    <None Include="ControlsImages\Sound\Thumbs.db" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -140,28 +176,47 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="MyControlsImages\next.png" />
-    <Resource Include="MyControlsImages\next2.png" />
-    <Resource Include="MyControlsImages\noreplay.png" />
-    <Resource Include="MyControlsImages\noreplay2.png" />
-    <Resource Include="MyControlsImages\notshuffle.png" />
-    <Resource Include="MyControlsImages\notshuffle2.png" />
-    <Resource Include="MyControlsImages\play.png" />
-    <Resource Include="MyControlsImages\play2.png" />
-    <Resource Include="MyControlsImages\prev.png" />
-    <Resource Include="MyControlsImages\prev2.png" />
-    <Resource Include="MyControlsImages\replay.png" />
-    <Resource Include="MyControlsImages\replay2.png" />
-    <Resource Include="MyControlsImages\shuffle.png" />
-    <Resource Include="MyControlsImages\shuffle2.png" />
-    <Resource Include="MyControlsImages\stop.png" />
-    <Resource Include="MyControlsImages\stop2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\WindowsIcons-license.txt" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="ControlsImages\Bar\Bar_empty.png" />
+    <Resource Include="ControlsImages\Bar\Bar_full.png" />
+    <Resource Include="ControlsImages\Bar\Knob.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ControlsImages\Forward_Backward\Backward_Hover.png" />
+    <Resource Include="ControlsImages\Forward_Backward\Backward_Idle.png" />
+    <Resource Include="ControlsImages\Forward_Backward\Backward_Pressed.png" />
+    <Resource Include="ControlsImages\Forward_Backward\Forward_Hover.png" />
+    <Resource Include="ControlsImages\Forward_Backward\Forward_Idle.png" />
+    <Resource Include="ControlsImages\Forward_Backward\Forward_Pressed.png" />
+    <Resource Include="ControlsImages\Play_Pause\Pause_Hover.png" />
+    <Resource Include="ControlsImages\Play_Pause\Pause_Idle.png" />
+    <Resource Include="ControlsImages\Play_Pause\Pause_Pressed.png" />
+    <Resource Include="ControlsImages\Play_Pause\Play_Hover.png" />
+    <Resource Include="ControlsImages\Play_Pause\Play_Idle.png" />
+    <Resource Include="ControlsImages\Play_Pause\Play_Pressed.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Repeat_OFF-ON.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Repeat_OFF_Hover.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Repeat_OFF_Idle.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Repeat_ON-OFF.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Repeat_ON_Idle.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Shuffle_OFF-ON.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Shuffle_OFF_Hover.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Shuffle_OFF_Idle.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Shuffle_ON-OFF.png" />
+    <Resource Include="ControlsImages\Repeat_Shuffle\Shuffle_ON_Idle.png" />
+    <Resource Include="ControlsImages\Sound\Sound_OFF-ON.png" />
+    <Resource Include="ControlsImages\Sound\Sound_OFF_Idle.png" />
+    <Resource Include="ControlsImages\Sound\Sound_ON-OFF.png" />
+    <Resource Include="ControlsImages\Sound\Sound_ON_Hover.png" />
+    <Resource Include="ControlsImages\Sound\Sound_ON_Idle.png" />
+    <Resource Include="ControlsImages\Stars\Star_Empty.png" />
+    <Resource Include="ControlsImages\Stars\Star_Full.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

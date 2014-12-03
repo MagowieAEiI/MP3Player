@@ -4,13 +4,10 @@
                       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
                       xmlns:my="clr-namespace:MP3Player.MyControls"
                       Title="MainWindow" 
-                      Height="{Binding Path=WindowHeight}"
-                      Width="{Binding Path=WindowWidth}" ShowTitleBar="False" Background="Gray">
+                      ShowTitleBar="False" Background="Gray">
     <Grid Name="SongInfo" MouseWheel="SongInfo_MouseWheel" MouseRightButtonDown="SongInfo_MouseRightButtonDown">
-        <StackPanel HorizontalAlignment="Center">
-            <my:CoverFlow x:Name="MainCoverFlow"></my:CoverFlow>
-            <my:MainPanel ></my:MainPanel>
-        </StackPanel>
+        <my:CoverFlow HorizontalAlignment="Left" VerticalAlignment="Top" MinHeight="400" MinWidth="300" MaxHeight="400" MaxWidth="300" x:Name="MainCoverFlow"></my:CoverFlow>
+        <my:StarPanel HorizontalAlignment="Center" VerticalAlignment="Center"></my:StarPanel>
     </Grid>
 
 </Controls:MetroWindow>

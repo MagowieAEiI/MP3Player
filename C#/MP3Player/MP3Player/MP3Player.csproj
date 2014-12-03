@@ -117,66 +117,64 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="MP3File.cs" />
     <Compile Include="MyControls\CoverFlow.xaml.cs">
-=======
-    <Compile Include="MyControls\InfoPanel\ArtistNameLabel.xaml.cs">
-      <DependentUpon>ArtistNameLabel.xaml</DependentUpon>
+      <Compile Include="MyControls\InfoPanel\ArtistNameLabel.xaml.cs">
+        <DependentUpon>ArtistNameLabel.xaml</DependentUpon>
+      </Compile>
     </Compile>
-    <Compile Include="MyControls\InfoPanel\CoverFlow.xaml.cs">
->>>>>>> origin/master
-      <DependentUpon>CoverFlow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyControls\InfoPanel\OptionalInfoLabel.xaml.cs">
-      <DependentUpon>OptionalInfoLabel.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyControls\InfoPanel\SongNameLabel.xaml.cs">
-      <DependentUpon>SongNameLabel.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyControls\MainPanel.xaml.cs">
-      <DependentUpon>MainPanel.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyControls\PlayControl.xaml.cs">
-      <DependentUpon>PlayControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyControls\RoundControl.xaml.cs">
-      <DependentUpon>RoundControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MyControls\InfoPanel\StarPanel.xaml.cs">
-      <DependentUpon>StarPanel.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Resource Include="Fonts\CenturyGothic.ttf" />
-    <None Include="ControlsImages\Bar\Thumbs.db" />
-    <None Include="ControlsImages\Forward_Backward\Thumbs.db" />
-    <None Include="ControlsImages\Play_Pause\Thumbs.db" />
-    <None Include="ControlsImages\Repeat_Shuffle\Thumbs.db" />
-    <None Include="ControlsImages\Sound\Thumbs.db" />
-    <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <AppDesigner Include="Properties\" />
-    <Resource Include="Resources\Entypo.ttf" />
-  </ItemGroup>
+      <Compile Include="MyControls\InfoPanel\CoverFlow.xaml.cs">
+        <DependentUpon>CoverFlow.xaml</DependentUpon>
+      </Compile>
+      <Compile Include="MyControls\InfoPanel\OptionalInfoLabel.xaml.cs">
+        <DependentUpon>OptionalInfoLabel.xaml</DependentUpon>
+      </Compile>
+      <Compile Include="MyControls\InfoPanel\SongNameLabel.xaml.cs">
+        <DependentUpon>SongNameLabel.xaml</DependentUpon>
+      </Compile>
+      <Compile Include="MyControls\MainPanel.xaml.cs">
+        <DependentUpon>MainPanel.xaml</DependentUpon>
+      </Compile>
+      <Compile Include="MyControls\PlayControl.xaml.cs">
+        <DependentUpon>PlayControl.xaml</DependentUpon>
+      </Compile>
+      <Compile Include="MyControls\RoundControl.xaml.cs">
+        <DependentUpon>RoundControl.xaml</DependentUpon>
+      </Compile>
+      <Compile Include="MyControls\InfoPanel\StarPanel.xaml.cs">
+        <DependentUpon>StarPanel.xaml</DependentUpon>
+      </Compile>
+      <Compile Include="Properties\AssemblyInfo.cs">
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Include="Properties\Resources.Designer.cs">
+        <AutoGen>True</AutoGen>
+        <DesignTime>True</DesignTime>
+        <DependentUpon>Resources.resx</DependentUpon>
+      </Compile>
+      <Compile Include="Properties\Settings.Designer.cs">
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Settings.settings</DependentUpon>
+        <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      </Compile>
+      <EmbeddedResource Include="Properties\Resources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <Resource Include="Fonts\CenturyGothic.ttf" />
+      <None Include="ControlsImages\Bar\Thumbs.db" />
+      <None Include="ControlsImages\Forward_Backward\Thumbs.db" />
+      <None Include="ControlsImages\Play_Pause\Thumbs.db" />
+      <None Include="ControlsImages\Repeat_Shuffle\Thumbs.db" />
+      <None Include="ControlsImages\Sound\Thumbs.db" />
+      <None Include="packages.config" />
+      <None Include="Properties\Settings.settings">
+        <Generator>SettingsSingleFileGenerator</Generator>
+        <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      </None>
+      <AppDesigner Include="Properties\" />
+      <Resource Include="Resources\Entypo.ttf" />
+    </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>

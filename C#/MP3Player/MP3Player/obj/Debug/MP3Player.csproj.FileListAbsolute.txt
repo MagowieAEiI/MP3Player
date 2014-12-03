@@ -151,3 +151,12 @@ C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyCont
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\StarPanel.g.cs
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\StarPanel.baml
 >>>>>>> origin/master
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\ArtistNameLabel.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\CoverFlow.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\OptionalInfoLabel.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\SongNameLabel.baml
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\ArtistNameLabel.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\CoverFlow.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\OptionalInfoLabel.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\SongNameLabel.g.cs
+D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\obj\Debug\MyControls\InfoPanel\StarPanel.g.cs

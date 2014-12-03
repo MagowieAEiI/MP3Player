@@ -9,21 +9,12 @@ MP3Player
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 D:\Repozytoria\MP3Player\C#\MP3Player\MP3Player\App.xaml
-7-1526287680
-
-16-814766015
-142074627395
-MainWindow.xaml;MyControls\CoverFlow.xaml;MyControls\MainPanel.xaml;MyControls\PlayControl.xaml;MyControls\RoundControl.xaml;Resources\Icons.xaml;Styles\MainWindowStyle.xaml;
-=======
-C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3Player\MP3Player\App.xaml
 11273917510
 
-192038039682
-161732244497
+12-587300745
+16193608060
 MainWindow.xaml;MyControls\InfoPanel\ArtistNameLabel.xaml;MyControls\InfoPanel\CoverFlow.xaml;MyControls\InfoPanel\OptionalInfoLabel.xaml;MyControls\InfoPanel\SongNameLabel.xaml;MyControls\MainPanel.xaml;MyControls\PlayControl.xaml;MyControls\RoundControl.xaml;MyControls\InfoPanel\StarPanel.xaml;Resources\Icons.xaml;Styles\MainWindowStyle.xaml;
->>>>>>> origin/master
 
-False
+True
 

@@ -118,32 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MP3File.cs" />
-    <Compile Include="MyControls\CoverFlow.xaml.cs">
-      <Compile Include="MyControls\InfoPanel\ArtistNameLabel.xaml.cs">
-        <DependentUpon>ArtistNameLabel.xaml</DependentUpon>
-      </Compile>
-    </Compile>
-      <Compile Include="MyControls\InfoPanel\CoverFlow.xaml.cs">
-        <DependentUpon>CoverFlow.xaml</DependentUpon>
-      </Compile>
-      <Compile Include="MyControls\InfoPanel\OptionalInfoLabel.xaml.cs">
-        <DependentUpon>OptionalInfoLabel.xaml</DependentUpon>
-      </Compile>
-      <Compile Include="MyControls\InfoPanel\SongNameLabel.xaml.cs">
-        <DependentUpon>SongNameLabel.xaml</DependentUpon>
-      </Compile>
-      <Compile Include="MyControls\MainPanel.xaml.cs">
-        <DependentUpon>MainPanel.xaml</DependentUpon>
-      </Compile>
-      <Compile Include="MyControls\PlayControl.xaml.cs">
-        <DependentUpon>PlayControl.xaml</DependentUpon>
-      </Compile>
-      <Compile Include="MyControls\RoundControl.xaml.cs">
-        <DependentUpon>RoundControl.xaml</DependentUpon>
-      </Compile>
-      <Compile Include="MyControls\InfoPanel\StarPanel.xaml.cs">
-        <DependentUpon>StarPanel.xaml</DependentUpon>
-      </Compile>
+      
       <Compile Include="Properties\AssemblyInfo.cs">
         <SubType>Code</SubType>
       </Compile>

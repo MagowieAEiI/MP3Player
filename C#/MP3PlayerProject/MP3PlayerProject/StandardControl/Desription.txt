@@ -1,1 +1,0 @@
-﻿Jest to folder z templetami które będą wykorzystywane przez inne kontrolki, np. będziemy trzymać tu kontrolkę dzięki której o wiele prostsze będzie wczytywanie przeźroczystych kontrolek

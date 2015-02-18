@@ -1,0 +1,22 @@
+﻿<!--Jest to szablon kontrolki która korzysta z obrazku który jest przeźroczysty, gdy chcemy z niej skorzystać podajemy adres obrazka który jest 
+    wyświetlany gdy nie 
+    -->
+<UserControl x:Class="MP3PlayerProject.StandardControl.TransparentButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Name="UC1">
+    <!--Na początku definiujemy styl z którego będzie korzystała nasz kontrolka, jak widać ustawiamy np. tło na przeźroczystość, dzięki czemu teraz wszystkie
+    kontrolki które korzystają z tego stylu będą przeźroczyste-->
+
+    <!--Jest to kod kontrolki, domyślnie ma ona zbindowany obraz który jest podany w naszej domyślnej właściwości ImageSourceMouseOut, jej kod możemy znaleźć w 
+    pliku cs. naszej kontrolki, należy pamiętać że, istnieją właściwości użytkownika oraz domyślne właściwości WPF jak np. Width, Background-->
+    <Grid>
+        <StackPanel  Background="Transparent" >
+            <Image RenderOptions.BitmapScalingMode="HighQuality" Margin="0" Source="{Binding ElementName=UC1, Path=ImageSourceMouseOut}" Name="Img1"  MouseEnter="Img1_MouseEnter" MouseLeave="Img1_MouseLeave" />
+
+        </StackPanel>
+    </Grid>
+</UserControl>

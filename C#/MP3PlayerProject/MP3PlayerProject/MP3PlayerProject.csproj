@@ -58,8 +58,17 @@
     <Compile Include="ComponentControl\Bar.xaml.cs">
       <DependentUpon>Bar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ComponentControl\BottomPanel.xaml.cs">
+      <DependentUpon>BottomPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComponentControl\ControlPanel.xaml.cs">
+      <DependentUpon>ControlPanel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ComponentControl\CoverFlow.xaml.cs">
       <DependentUpon>CoverFlow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComponentControl\SoundBar.xaml.cs">
+      <DependentUpon>SoundBar.xaml</DependentUpon>
     </Compile>
     <Compile Include="ComponentControl\StarPanel.xaml.cs">
       <DependentUpon>StarPanel.xaml</DependentUpon>
@@ -71,7 +80,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ComponentControl\BottomPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComponentControl\ControlPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ComponentControl\CoverFlow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComponentControl\SoundBar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -176,6 +197,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Description.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\SampleAlbumCover\101738621.png" />
+    <Resource Include="Assets\SampleAlbumCover\80945949.png" />
+    <Resource Include="Assets\SampleAlbumCover\88057565.png" />
+    <Resource Include="Assets\SampleAlbumCover\88059849.png" />
+    <Resource Include="Assets\SampleAlbumCover\88059875.png" />
+    <Resource Include="Assets\SampleAlbumCover\88060027.png" />
+    <Resource Include="Assets\SampleAlbumCover\94104541.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

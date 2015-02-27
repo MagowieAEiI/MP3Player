@@ -62,6 +62,8 @@ namespace MP3PlayerProject.ComponentControl
         public Bar()
         {
             InitializeComponent();
+            if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this))
+                return;
             fullBarImage = Image.FromFile(@"../Assets/ControlImages/Bar/Bar_full.png");
             emptyBarImage = Image.FromFile(@"../Assets/ControlImages/Bar/Bar_empty.png");
             play = false;

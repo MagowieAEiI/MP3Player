@@ -23,8 +23,10 @@ namespace MP3PlayerProject
         public MainWindow()
         {
             InitializeComponent();
-            BarComponent.SetTime(0,20,2,20);
-            BarComponent.StartAnimation();
+            BottomPanel.Bar.SetTime(0, 20, 2, 20);
+            BottomPanel.Bar.StartAnimation();
+            //BarComponent.SetTime(0,20,2,20);
+            //BarComponent.StartAnimation();
         }
 
     }

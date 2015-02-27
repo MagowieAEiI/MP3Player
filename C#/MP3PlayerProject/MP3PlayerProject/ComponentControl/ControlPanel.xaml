@@ -33,7 +33,7 @@
                     <RowDefinition Height="2*"></RowDefinition>
                     <RowDefinition Height="2*"></RowDefinition>
                 </Grid.RowDefinitions>
-                <componentControl:SoundBar Grid.Row="1"></componentControl:SoundBar>
+                <componentControl:SoundBar x:Name="SoundBar" Grid.Row="1"></componentControl:SoundBar>
             </Grid>
             <Image RenderOptions.BitmapScalingMode="HighQuality" Grid.Column="6" Source="../Assets/ControlImages/Sound/Sound_ON-OFF.png"></Image>
 

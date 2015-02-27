@@ -29,7 +29,7 @@
                 <RowDefinition Height="6*"></RowDefinition>
             </Grid.RowDefinitions>
             <componentControl:Bar x:Name="Bar" Grid.Row="1"></componentControl:Bar>
-            <componentControl:ControlPanel Grid.Row="3"></componentControl:ControlPanel>
+            <componentControl:ControlPanel x:Name="ControlPanel" Grid.Row="3"></componentControl:ControlPanel>
             </Grid>
     </Grid>
 </UserControl>

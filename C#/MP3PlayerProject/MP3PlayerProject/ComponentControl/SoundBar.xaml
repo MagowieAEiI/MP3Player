@@ -7,6 +7,6 @@
              x:Name="UC6">
     <Grid>
         <Image RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Source="../Assets/ControlImages/Bar/Bar_full.png" Name="BarImg" ></Image>
-        <Image RenderOptions.BitmapScalingMode="HighQuality" Source="../Assets/ControlImages/Bar/Knob.png" Name="KnobImg"/>
+        <Image Loaded="KnobImg_OnLoaded" RenderOptions.BitmapScalingMode="HighQuality" Source="../Assets/ControlImages/Bar/Knob.png" Name="KnobImg"/>
     </Grid>
 </UserControl>

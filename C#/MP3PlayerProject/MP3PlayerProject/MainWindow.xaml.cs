@@ -25,6 +25,7 @@ namespace MP3PlayerProject
             InitializeComponent();
             BottomPanel.Bar.SetTime(0, 20, 2, 20);
             BottomPanel.Bar.StartAnimation();
+            //BottomPanel.ControlPanel.SoundBar.setSoundLoudLevel(40);
             //BarComponent.SetTime(0,20,2,20);
             //BarComponent.StartAnimation();
         }

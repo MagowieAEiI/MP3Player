@@ -1,7 +1,6 @@
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\bin\Debug\MP3PlayerProject.exe.config
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\bin\Debug\MP3PlayerProject.exe
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\bin\Debug\MP3PlayerProject.pdb
-C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\MP3PlayerProject.csprojResolveAssemblyReference.cache
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\ComponentControl\Bar.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\ComponentControl\CoverFlow.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\StandardControl\TransparentButton.baml
@@ -28,3 +27,5 @@ C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\ob
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\ComponentControl\BottomPanel.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\ComponentControl\ControlPanel.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\App.baml
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\ScrollBarStyle.baml
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\MP3PlayerProject.csprojResolveAssemblyReference.cache

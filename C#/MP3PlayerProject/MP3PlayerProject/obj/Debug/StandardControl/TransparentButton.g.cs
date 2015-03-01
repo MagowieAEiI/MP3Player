@@ -9,6 +9,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using MP3PlayerProject;
+using MP3PlayerProject.ComponentControl;
+using MP3PlayerProject.StandardControl;
+using Microsoft.Windows.Themes;
 using System;
 using System.Diagnostics;
 using System.Windows;

@@ -5,5 +5,10 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <mp3PlayerProject:WidthAndHeightConventer x:Key="MyConventer2"></mp3PlayerProject:WidthAndHeightConventer>
+        <ResourceDictionary x:Key="Dictionary0">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ScrollBarStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -62,8 +62,7 @@ namespace MP3PlayerProject.ComponentControl
         public Bar()
         {
             InitializeComponent();
-            if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this))
-                return;
+            if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this)) return;
             fullBarImage = Image.FromFile(@"../Assets/ControlImages/Bar/Bar_full.png");
             emptyBarImage = Image.FromFile(@"../Assets/ControlImages/Bar/Bar_empty.png");
             play = false;
@@ -87,8 +86,8 @@ namespace MP3PlayerProject.ComponentControl
         }
 
         private int ile=0;
-        private float pom = 0.0f;
-        private void playAnimation(object obj, EventArgs ea)
+        public float pom = 0.0f;
+        public void playAnimation(object obj, EventArgs ea)
         {
             //kod jest tak pogmatwany tu ponieważ nie udaje mi się ustawić prawidłowo punktu wobec którego następuje translacja, automatycznie jest to środek grida
             SetBarImageCorrect();
@@ -141,9 +140,13 @@ namespace MP3PlayerProject.ComponentControl
             if(play==false)StartAnimation();
         }
 
-        private int pom2 = 0;
+        public int pom2 = 0;
 
-        private void KnobImg_MouseMove(object sender, MouseEventArgs e)
+        public bool mouseInGrid=true;
+
+        public bool knobIsPressed = false;
+
+        public void KnobImg_MouseMove(object sender, MouseEventArgs e)
         {
             if (Mouse.LeftButton == MouseButtonState.Pressed)
             {
@@ -157,6 +160,7 @@ namespace MP3PlayerProject.ComponentControl
                 pom -= 0.05f;
                 playAnimation(null,null);
                 pom2 = 1;
+                knobIsPressed = true;
             }
             else if (pom2 == 1&&play==true)
             {
@@ -165,7 +169,7 @@ namespace MP3PlayerProject.ComponentControl
             }
         }
 
-        private void KnobImg_MouseUp(object sender, MouseButtonEventArgs e)
+        public void KnobImg_MouseUp(object sender, MouseButtonEventArgs e)
         {
             if (pom2 == 1 && play == true)
             {
@@ -174,14 +178,6 @@ namespace MP3PlayerProject.ComponentControl
             }
         }
 
-        private void KnobImg_MouseLeave(object sender, MouseEventArgs e)
-        {
-            if (pom2 == 1 && play == true)
-            {
-                pom2 = 0;
-                StartAnimation();
-            }
-        }
 
         private Bitmap BitmapImage2Bitmap(BitmapImage bitmapImage)
         {
@@ -217,6 +213,22 @@ namespace MP3PlayerProject.ComponentControl
                 return result;
             }
         }
+
+        private void Grid_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mouseInGrid = false;
+            if (Mouse.LeftButton == MouseButtonState.Pressed)
+            {
+                knobIsPressed = true;
+            }
+        }
+
+        private void Grid_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mouseInGrid = true;
+        }
+
+
 
     }
 }

@@ -23,6 +23,32 @@ namespace MP3PlayerProject.ComponentControl
         public BottomPanel()
         {
             InitializeComponent();
+            if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this)) return;
         }
+
+        private void UIElement_OnMouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (Bar.knobIsPressed&&Bar.mouseInGrid==false)
+            {
+                Bar.KnobImg_MouseUp(sender, e);
+            }
+        }
+
+        private void UIElement_OnMouseLeave(object sender, MouseEventArgs e)
+        {
+            if (Bar.knobIsPressed&&Bar.mouseInGrid==false)
+            {
+                Bar.KnobImg_MouseUp(null, null);
+            }
+        }
+
+        private void UIElement_OnMouseMove(object sender, MouseEventArgs e)
+        {
+            if (Bar.knobIsPressed&&Bar.mouseInGrid==false)
+            {
+                Bar.KnobImg_MouseMove(sender, e);
+            }
+        }
+
     }
 }

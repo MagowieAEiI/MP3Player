@@ -16,9 +16,9 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"></ColumnDefinition>
                 <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="1.4*"></ColumnDefinition>
-                <ColumnDefinition Width="1.5*"></ColumnDefinition>
-                <ColumnDefinition Width="1.4*"></ColumnDefinition>
+                <ColumnDefinition Width="1.7*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="1.7*"></ColumnDefinition>
                 <ColumnDefinition Width="2.5*"></ColumnDefinition>
                 <ColumnDefinition Width="1*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
@@ -29,9 +29,9 @@
             <Image RenderOptions.BitmapScalingMode="HighQuality" Grid.Column="4" Source="../Assets/ControlImages/F_B/Forward_Idle.png"></Image>
             <Grid Grid.Column="5">
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"></RowDefinition>
                     <RowDefinition Height="2*"></RowDefinition>
-                    <RowDefinition Height="2*"></RowDefinition>
-                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="6*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <componentControl:SoundBar x:Name="SoundBar" Grid.Row="1"></componentControl:SoundBar>
             </Grid>

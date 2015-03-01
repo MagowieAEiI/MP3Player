@@ -3,8 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:standardControl="clr-namespace:MP3PlayerProject.StandardControl"
         xmlns:componentControl="clr-namespace:MP3PlayerProject.ComponentControl"
-        Title="MainWindow" Height="170" Width="1800">
-    
+        xmlns:mp3PlayerProject="clr-namespace:MP3PlayerProject"
+        Title="MainWindow" Height="600" Width="1000" x:Name="Window" SizeChanged="MainWindow_OnSizeChanged"  StateChanged="MainWindow_OnStateChanged" >
+    <Window.Resources>
+        <mp3PlayerProject:WidthAndHeightConventer x:Key="MyConventer"></mp3PlayerProject:WidthAndHeightConventer>
+    </Window.Resources>
     <Grid>
         <Grid.Background>
             <RadialGradientBrush GradientOrigin="0.5,0.5">
@@ -12,7 +15,45 @@
                 <GradientStop Color="#252529" Offset="1.0"/>
             </RadialGradientBrush>
         </Grid.Background>
-        <!-- <componentControl:StarPanel HorizontalAlignment="Center"></componentControl:StarPanel>-->
+    <Grid.RowDefinitions>
+        <RowDefinition Height="8*"></RowDefinition>
+        <RowDefinition Height="2*"></RowDefinition>
+    </Grid.RowDefinitions>
+    <Grid Row="0">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition x:Name="ColumnDefinition1" Width="{Binding ElementName=Window,Path=Width,Converter={StaticResource MyConventer},ConverterParameter=1}"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+            <Border BorderThickness="3">
+                <Border.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.0,0.0" StartPoint="4.0,100.0">
+                        <GradientStop Color="Gray" Offset="0.0"/>
+                        <GradientStop Color="#252529" Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+                <Grid Background="White" Column="0"></Grid>
+            </Border>
+            <Border Grid.Column="1" BorderThickness="3">
+                <Border.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.0,0.0" StartPoint="4.0,100.0">
+                        <GradientStop Color="Gray" Offset="0.0"/>
+                        <GradientStop Color="#252529" Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+                <Grid Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6*"></ColumnDefinition>
+                        <ColumnDefinition Width="4*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Column="0"></Grid>
+                    <Grid Column="1">
+                        <TextBlock FontFamily="/MP3PlayerProject;component/Assets/Fonts/#Century Gothic" Foreground="White" TextWrapping="WrapWithOverflow" x:Name="BandInfoTextBlock"></TextBlock></Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    <Grid Row="1">
+            <!-- <componentControl:StarPanel HorizontalAlignment="Center"></componentControl:StarPanel>-->
         <componentControl:BottomPanel x:Name="BottomPanel" ></componentControl:BottomPanel>
+    </Grid>
     </Grid>
 </Window>

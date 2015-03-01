@@ -8,12 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/samplealbumcover/101738621.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/samplealbumcover/80945949.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/samplealbumcover/88057565.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/samplealbumcover/88059849.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/samplealbumcover/88059875.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/samplealbumcover/88060027.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/samplealbumcover/94104541.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/samplebandfoto/beatles.jpg")]
 
 

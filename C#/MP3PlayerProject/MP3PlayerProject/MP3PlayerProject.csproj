@@ -76,6 +76,7 @@
     <Compile Include="StandardControl\TransparentButton.xaml.cs">
       <DependentUpon>TransparentButton.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WidthAndHeightConventer.cs" />
     <Page Include="ComponentControl\Bar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -206,6 +207,9 @@
     <Resource Include="Assets\SampleAlbumCover\88059875.png" />
     <Resource Include="Assets\SampleAlbumCover\88060027.png" />
     <Resource Include="Assets\SampleAlbumCover\94104541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\SampleBandFoto\beatles.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

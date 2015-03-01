@@ -27,3 +27,4 @@ C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\ob
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\ComponentControl\SoundBar.g.cs
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\ComponentControl\BottomPanel.baml
 C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\ComponentControl\ControlPanel.baml
+C:\Users\Art1\Documents\GitHub\MP3Player\C#\MP3PlayerProject\MP3PlayerProject\obj\Debug\App.baml

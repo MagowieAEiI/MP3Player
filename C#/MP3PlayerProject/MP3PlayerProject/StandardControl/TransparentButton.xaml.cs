@@ -70,6 +70,7 @@ namespace MP3PlayerProject.StandardControl
         public TransparentButton()
         {
             InitializeComponent();
+            if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this)) return;
         }
 
         private void Img1_MouseEnter(object sender, MouseEventArgs e)

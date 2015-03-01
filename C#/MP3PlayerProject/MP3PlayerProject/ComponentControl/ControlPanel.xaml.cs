@@ -23,6 +23,7 @@ namespace MP3PlayerProject.ComponentControl
         public ControlPanel()
         {
             InitializeComponent();
+            if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this)) return;
         }
     }
 }

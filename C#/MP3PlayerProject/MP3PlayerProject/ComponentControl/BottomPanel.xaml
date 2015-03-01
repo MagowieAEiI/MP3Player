@@ -6,10 +6,10 @@
              xmlns:componentControl="clr-namespace:MP3PlayerProject.ComponentControl"
              mc:Ignorable="d" 
              x:Name="UC4">
-    <Grid>
+    <Grid MouseUp="UIElement_OnMouseUp" MouseLeave="UIElement_OnMouseLeave" MouseMove="UIElement_OnMouseMove">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
                 <ColumnDefinition Width="5*"></ColumnDefinition>
                 <ColumnDefinition Width="3*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
@@ -23,12 +23,12 @@
             </Grid>
             <Grid Grid.Column="2">
             <Grid.RowDefinitions>
-                <RowDefinition Height="1*"></RowDefinition>
                 <RowDefinition Height="2*"></RowDefinition>
-                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="0*"></RowDefinition>
                 <RowDefinition Height="6*"></RowDefinition>
             </Grid.RowDefinitions>
-            <componentControl:Bar x:Name="Bar" Grid.Row="1"></componentControl:Bar>
+            <componentControl:Bar x:Name="Bar" Grid.Row="1" />
             <componentControl:ControlPanel x:Name="ControlPanel" Grid.Row="3"></componentControl:ControlPanel>
             </Grid>
     </Grid>

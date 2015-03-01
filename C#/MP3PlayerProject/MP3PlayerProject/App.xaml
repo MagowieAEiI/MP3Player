@@ -1,8 +1,9 @@
 ﻿<Application x:Class="MP3PlayerProject.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mp3PlayerProject="clr-namespace:MP3PlayerProject"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <mp3PlayerProject:WidthAndHeightConventer x:Key="MyConventer2"></mp3PlayerProject:WidthAndHeightConventer>
     </Application.Resources>
 </Application>

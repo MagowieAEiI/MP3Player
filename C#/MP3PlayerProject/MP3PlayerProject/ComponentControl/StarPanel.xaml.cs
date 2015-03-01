@@ -25,6 +25,7 @@ namespace MP3PlayerProject.ComponentControl
         public StarPanel()
         {
             InitializeComponent();
+            if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this)) return;
             starNumber = 0;
             Grid_MouseLeave(null,null);
         }

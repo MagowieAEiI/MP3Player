@@ -23,6 +23,7 @@ namespace MP3PlayerProject.ComponentControl
         public CoverFlow()
         {
             InitializeComponent();
+            if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this)) return;
         }
     }
 }

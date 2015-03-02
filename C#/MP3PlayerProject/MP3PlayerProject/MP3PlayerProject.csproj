@@ -216,6 +216,18 @@
   <ItemGroup>
     <Resource Include="Assets\SampleBandFoto\beatles.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Albums.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Albums_Highlight.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Artists.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Artists_Highlight.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Genres.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Genres_Highlight.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Playlists.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Playlists_Highlight.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Songs.png" />
+    <Resource Include="Assets\ControlImages\LeftBar_Icons\Songs_Highlight.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

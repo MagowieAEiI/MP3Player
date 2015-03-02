@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using MP3PlayerProject;
 using System;
 using System.Diagnostics;
 using System.Windows;

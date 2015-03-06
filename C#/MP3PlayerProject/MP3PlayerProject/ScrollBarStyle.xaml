@@ -64,7 +64,7 @@
                             <RowDefinition Height="4" />
                         </Grid.RowDefinitions>
                         <Ellipse Grid.Row="0" Grid.RowSpan="2" Fill="Gray" />
-                        <Rectangle Grid.Row="1" Grid.RowSpan="3" Fill="Gray" />
+                        <Rectangle Grid.Row="1" Grid.RowSpan="3" Fill="BurlyWood" />
                         <Ellipse Grid.Row="3" Grid.RowSpan="2" Fill="Gray" />
                     </Grid>
                 </ControlTemplate>
@@ -81,11 +81,15 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type ScrollBar}">
-                    <Grid x:Name="Bg" SnapsToDevicePixels="true" Background="LightGray">
-                        <Grid.RowDefinitions>
+                    <Border x:Name="Border1" Background="Red" BorderBrush="Yellow" BorderThickness="1,1,1,1" CornerRadius="3,3,3,3">
+                        <Grid x:Name="Bg" SnapsToDevicePixels="true" Background="LightGray">
+                            <Grid.RowDefinitions>
                             <RowDefinition Height="1*"/>
                         </Grid.RowDefinitions>
-                        <Track x:Name="PART_Track" IsDirectionReversed="true" IsEnabled="{TemplateBinding IsMouseOver}" Grid.Row="1">
+                            <Grid.OpacityMask>
+                                <VisualBrush Visual="{Binding ElementName=Border1}"></VisualBrush>
+                            </Grid.OpacityMask>
+                        <Track x:Name="PART_Track" IsDirectionReversed="true" IsEnabled="{TemplateBinding IsMouseOver}" Grid.Row="0">
                             <Track.DecreaseRepeatButton>
                                 <RepeatButton Command="{x:Static ScrollBar.PageUpCommand}" Style="{StaticResource ScrollBarPageButton}"/>
                             </Track.DecreaseRepeatButton>
@@ -97,6 +101,7 @@
                             </Track.Thumb>
                         </Track>
                     </Grid>
+                    </Border>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

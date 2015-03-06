@@ -25,18 +25,11 @@
         <RowDefinition Height="2*"></RowDefinition>
     </Grid.RowDefinitions>
     <Grid Row="0">
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition x:Name="ColumnDefinition1" Width="{Binding ElementName=Window,Path=Width,Converter={StaticResource MyConventer},ConverterParameter=1}"></ColumnDefinition>
-        <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-            <Border BorderThickness="3">
-                <Border.BorderBrush>
-                    <LinearGradientBrush EndPoint="0.0,0.0" StartPoint="4.0,100.0">
-                        <GradientStop Color="Gray" Offset="0.0"/>
-                        <GradientStop Color="#252529" Offset="1.0"/>
-                    </LinearGradientBrush>
-                </Border.BorderBrush>
-                <Grid Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="ColumnDefinition1" Width="{Binding ElementName=Window,Path=Width,Converter={StaticResource MyConventer},ConverterParameter=1}"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Column="0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30"></RowDefinition>
                         <RowDefinition Height="30"></RowDefinition>
@@ -44,18 +37,27 @@
                         <RowDefinition Height="30"></RowDefinition>
                         <RowDefinition Height="30"></RowDefinition>
                     </Grid.RowDefinitions>
-                    <Grid Row="0" Margin="0,6,0,0"><Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Songs.png" Width="30"></Image></Grid>
-                    <Grid Row="1" Margin="0,6,0,0"><Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Albums.png" Width="30"></Image></Grid>
-                    <Grid Row="2" Margin="0,6,0,0"><Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Artists.png" Width="30"></Image></Grid>
-                    <Grid Row="3" Margin="0,6,0,0"><Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Genres.png" Width="30"></Image></Grid>
-                    <Grid Row="4" Margin="0,6,0,0"><Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Playlists.png" Width="30"></Image></Grid>
+                    <Grid Row="0" Margin="0,6,0,0">
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Songs.png" Width="30"></Image>
+                    </Grid>
+                    <Grid Row="1" Margin="0,6,0,0">
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Albums.png" Width="30"></Image>
+                    </Grid>
+                    <Grid Row="2" Margin="0,6,0,0">
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Artists.png" Width="30"></Image>
+                    </Grid>
+                    <Grid Row="3" Margin="0,6,0,0">
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Genres.png" Width="30"></Image>
+                    </Grid>
+                    <Grid Row="4" Margin="0,6,0,0">
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Source="../Assets/ControlImages/LeftBar_Icons/Playlists.png" Width="30"></Image>
+                    </Grid>
                 </Grid>
-            </Border>
-            <Border Grid.Column="1" BorderThickness="3">
+                <Border Margin="-4,0,0,0" Grid.Column="1" BorderThickness="3,0,0,0">
                 <Border.BorderBrush>
-                    <LinearGradientBrush EndPoint="0.0,0.0" StartPoint="4.0,100.0">
-                        <GradientStop Color="Gray" Offset="0.0"/>
-                        <GradientStop Color="#252529" Offset="1.0"/>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="Black" Offset="0.0" />
+                        <GradientStop Color="White" Offset="0.01" />
                     </LinearGradientBrush>
                 </Border.BorderBrush>
                 <Grid Column="1">
@@ -88,7 +90,15 @@
         </Grid>
     <Grid Row="1">
             <!-- <componentControl:StarPanel HorizontalAlignment="Center"></componentControl:StarPanel>-->
-        <componentControl:BottomPanel x:Name="BottomPanel" ></componentControl:BottomPanel>
-    </Grid>
+            <Border BorderThickness="0,3,0,0">
+                <Border.BorderBrush>
+                    <LinearGradientBrush Opacity="0.5" StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="LightGray" Offset="0.0" />
+                        <GradientStop Color="Black" Offset="0.01" />
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+            <componentControl:BottomPanel x:Name="BottomPanel"/>
+            </Border>
+        </Grid>
     </Grid>
 </Window>

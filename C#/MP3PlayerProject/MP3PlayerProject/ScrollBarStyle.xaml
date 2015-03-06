@@ -86,9 +86,10 @@
                             <Grid.RowDefinitions>
                             <RowDefinition Height="1*"/>
                         </Grid.RowDefinitions>
-                            <Grid.OpacityMask>
+                       <!--     <Grid.OpacityMask>
                                 <VisualBrush Visual="{Binding ElementName=Border1}"></VisualBrush>
                             </Grid.OpacityMask>
+                        Gdy się odkomentuje to thumb nie jest widoczny-->
                         <Track x:Name="PART_Track" IsDirectionReversed="true" IsEnabled="{TemplateBinding IsMouseOver}" Grid.Row="0">
                             <Track.DecreaseRepeatButton>
                                 <RepeatButton Command="{x:Static ScrollBar.PageUpCommand}" Style="{StaticResource ScrollBarPageButton}"/>

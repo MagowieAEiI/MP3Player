@@ -64,7 +64,7 @@
                             <RowDefinition Height="4" />
                         </Grid.RowDefinitions>
                         <Ellipse Grid.Row="0" Grid.RowSpan="2" Fill="Gray" />
-                        <Rectangle Grid.Row="1" Grid.RowSpan="3" Fill="BurlyWood" />
+                        <Rectangle Grid.Row="1" Grid.RowSpan="3" Fill="Gray" />
                         <Ellipse Grid.Row="3" Grid.RowSpan="2" Fill="Gray" />
                     </Grid>
                 </ControlTemplate>
@@ -81,7 +81,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type ScrollBar}">
-                    <Border x:Name="Border1" Background="Red" BorderBrush="Yellow" BorderThickness="1,1,1,1" CornerRadius="3,3,3,3">
+                    <Border x:Name="Border1" Background="Red" BorderBrush="LightGray" BorderThickness="1,1,1,1" CornerRadius="3,3,3,3">
                         <Grid x:Name="Bg" SnapsToDevicePixels="true" Background="LightGray">
                             <Grid.RowDefinitions>
                             <RowDefinition Height="1*"/>

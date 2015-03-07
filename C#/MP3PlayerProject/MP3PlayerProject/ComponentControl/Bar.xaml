@@ -12,9 +12,9 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         
-       <Label Foreground="White" Grid.Column="0"  Name="CurrentTimeLabel" HorizontalAlignment="Right" FontWeight="Bold" VerticalAlignment="Center">0:00</Label>
+       <Label Margin="0,0,3,-3"  Foreground="White" Grid.Column="0"  Name="CurrentTimeLabel" HorizontalAlignment="Right" FontWeight="Bold" VerticalAlignment="Center">0:00</Label>
         <Image RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Grid.Column="1" Source="../Assets/ControlImages/Bar/Bar_full.png" Name="BarImg" SizeChanged="BarImg_SizeChanged" MouseLeftButtonDown="BarImg_MouseLeftButtonDown" ></Image>
         <Image RenderOptions.BitmapScalingMode="HighQuality" Grid.Column="1" Source="../Assets/ControlImages/Bar/Knob.png" Name="KnobImg"  MouseMove="KnobImg_MouseMove" MouseUp="KnobImg_MouseUp"/>
-        <Label Foreground="White" Grid.Column="2" Name="LongOfSongLabel" HorizontalAlignment="Left" FontWeight="Bold" VerticalAlignment="Center">5:00</Label>
+        <Label Margin="0,0,3,-3" Foreground="White" Grid.Column="2" Name="LongOfSongLabel" HorizontalAlignment="Left" FontWeight="Bold" VerticalAlignment="Center">5:00</Label>
     </Grid>
 </UserControl>

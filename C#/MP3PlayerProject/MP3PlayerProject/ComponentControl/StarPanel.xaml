@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              Name="UC2">
     <Grid>
-        <Grid  Margin="10" MouseLeave="Grid_MouseLeave">
+        <Grid MouseLeave="Grid_MouseLeave">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
                 <ColumnDefinition Width="1*" />
@@ -16,12 +16,21 @@
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
             <!--Panel powinien być tak spłaszczony by butonny były mniej więcej wielkości gwiazdek-->
-            <standardControl:TransparentButton x:Name="star0" Grid.Column="0" HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
-            <standardControl:TransparentButton x:Name="star1" Grid.Column="1" HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
-            <standardControl:TransparentButton x:Name="star2" Grid.Column="2" HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
-            <standardControl:TransparentButton x:Name="star3" Grid.Column="3" HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
-            <standardControl:TransparentButton x:Name="star4" Grid.Column="4" HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
-
+            <Grid Margin="3,0,0,0" Grid.Column="0">
+            <standardControl:TransparentButton x:Name="star0"  HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
+            </Grid>
+            <Grid Margin="3,0,0,0" Grid.Column="1">
+            <standardControl:TransparentButton x:Name="star1"  HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
+            </Grid>
+            <Grid Margin="3,0,0,0" Grid.Column="2">
+            <standardControl:TransparentButton x:Name="star2"  HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
+            </Grid>
+            <Grid Margin="3,0,0,0" Grid.Column="3">
+            <standardControl:TransparentButton x:Name="star3"  HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
+            </Grid>
+            <Grid Margin="3,0,0,0" Grid.Column="4">
+            <standardControl:TransparentButton x:Name="star4"  HorizontalAlignment="Center" ImageSourceMouseIn="../Assets/ControlImages/Stars/Star_Full.png" ImageSourceMouseOut="../Assets/ControlImages/Stars/Star_Empty.png" Margin="0" MouseEnter="starMouseEnter" MouseLeave="starMouseLeave" MouseLeftButtonDown="starMouseDown"/>
+            </Grid>
         </Grid>
     </Grid>
 </UserControl>
